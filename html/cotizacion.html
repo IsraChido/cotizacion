@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización XYZ</title>
+    <link rel="stylesheet" href="/cotizacion/css/cotizacion.css">
+    <script src="/cotizacion/js/cotizacion.js"></script>
+</head>
+<body>
+    <section>
+        <label for="">Valor del automovil </label>
+        <input type="text" name="valor" id="valor">
+        <br>
+        <br>
+        <label for="">Enganche </label>
+        <input type="text" name="enganche" id="enganche" disabled>
+        <br>
+        <br>
+        <label for="">Total a financiar </label>
+        <input type="text" name="total" id="total" disabled>
+        <br>
+        <br>
+        <label for="">Pago mensual </label>
+        <input type="text" name="mensual" id="mensual" disabled>
+        <br>
+        <button id="btnCalcular" onclick="calcular()">Calcular</button>
+        <button id="btnLimpiar" onclick="limpiar()">Limpiar</button>
+    </section>
+    <aside>
+        <label for="">Planes de crédito: </label>
+        <select name="planes" id="planes">
+            <option value="12">12 meses</option>
+            <option value="18">18 meses</option>
+            <option value="24">24 meses</option>
+            <option value="36">36 meses</option>
+            <option value="48">48 meses</option>
+        </select>
+        <br>
+    </aside>
+</body>
+</html>
