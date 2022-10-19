@@ -1,0 +1,28 @@
+*{  
+    box-sizing: border-box;
+}
+
+section {
+    flex: 30%;
+}
+
+aside {
+    flex: 70%;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 700px;
+    background-color: aliceblue;
+}
+
+#btnCalcular {
+    margin: 10px;
+    padding: 8px;
+}
+
+#btnLimpiar {
+    padding: 8px;
+}
